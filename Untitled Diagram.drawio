@@ -1,1 +1,171 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T11:40:05.964Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" version="16.5.6" etag="tj4PIoHndWJqKlceHfBt" type="github"><diagram id="PMNbHHIjErQ10D7FR_ej">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-02-13T12:15:36.086Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="D55ApYM7-u2Nd5fYpwop" version="16.5.6" type="github">
+  <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
+    <mxGraphModel dx="1223" dy="648" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="KdYmeimfXarCjzWCJzDl-1" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f5f5f5;fontColor=#333333;strokeColor=#666666;rotation=20;container=0;" vertex="1" parent="1">
+          <mxGeometry x="300" y="170" width="210" height="340" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-2" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=-225;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="290" y="200" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-4" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=110;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="427" y="461" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-5" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=110;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="221" y="386" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-7" value="ForwardDir" style="endArrow=classic;html=1;rounded=0;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1">
+          <mxGeometry x="0.0001" y="-27" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="457" y="219" as="sourcePoint" />
+            <mxPoint x="507" y="100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-8" value="VelocityDir" style="endArrow=classic;html=1;rounded=0;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry y="40" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="457" y="220" as="sourcePoint" />
+            <mxPoint x="460" y="100" as="targetPoint" />
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-16" value="&lt;font size=&quot;1&quot;&gt;SlipAngel&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=bottom;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=5;" vertex="1" parent="1">
+          <mxGeometry x="447" y="130" width="70" height="10" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-28" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="480" y="360" width="70" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-21" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="KdYmeimfXarCjzWCJzDl-28">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="106" as="sourcePoint" />
+            <mxPoint x="70" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-22" value="横向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-21">
+          <mxGeometry x="-0.1226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-27" value="" style="group" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-28">
+          <mxGeometry width="36" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-24" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#66FF66;curved=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="KdYmeimfXarCjzWCJzDl-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="105" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-25" value="速度方向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-24">
+          <mxGeometry x="0.6709" relative="1" as="geometry">
+            <mxPoint x="-40" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-19" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="KdYmeimfXarCjzWCJzDl-27">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="106" as="sourcePoint" />
+            <mxPoint x="30" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-20" value="纵向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-19">
+          <mxGeometry x="0.571" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-14" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-75;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="KdYmeimfXarCjzWCJzDl-27">
+          <mxGeometry x="6" y="37" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-26" value="SlipAngel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="KdYmeimfXarCjzWCJzDl-27">
+          <mxGeometry x="6" y="7" width="30" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-39" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="260" y="304" width="70" height="134" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-40" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="KdYmeimfXarCjzWCJzDl-39">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="106" as="sourcePoint" />
+            <mxPoint x="70" y="134" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-41" value="横向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-40">
+          <mxGeometry x="-0.1226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-42" value="" style="group" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-39">
+          <mxGeometry width="36" height="106" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-43" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#66FF66;curved=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="KdYmeimfXarCjzWCJzDl-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="105" as="sourcePoint" />
+            <mxPoint as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-44" value="速度方向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-43">
+          <mxGeometry x="0.6709" relative="1" as="geometry">
+            <mxPoint x="-40" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-45" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="KdYmeimfXarCjzWCJzDl-42">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint y="106" as="sourcePoint" />
+            <mxPoint x="30" y="30" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-46" value="纵向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-45">
+          <mxGeometry x="0.571" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-47" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-75;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="KdYmeimfXarCjzWCJzDl-42">
+          <mxGeometry x="6" y="37" width="10" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-48" value="SlipAngel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;" vertex="1" parent="KdYmeimfXarCjzWCJzDl-42">
+          <mxGeometry x="6" y="7" width="30" height="13" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-3" value="" style="rounded=1;whiteSpace=wrap;html=1;rotation=-225;fillColor=#dae8fc;strokeColor=#6c8ebf;container=0;" vertex="1" parent="1">
+          <mxGeometry x="496" y="274" width="90" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-30" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#0050ef;strokeColor=#001DBC;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="539" y="300" as="sourcePoint" />
+            <mxPoint x="596" y="352" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-31" value="横向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;rotation=20;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-30">
+          <mxGeometry x="-0.1226" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-33" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#66FF66;curved=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="537" y="302" as="sourcePoint" />
+            <mxPoint x="537" y="190" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-34" value="速度方向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;rotation=20;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-33">
+          <mxGeometry x="0.6709" relative="1" as="geometry">
+            <mxPoint x="-40" y="12" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-35" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="536" y="303" as="sourcePoint" />
+            <mxPoint x="592" y="241" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-36" value="纵向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;rotation=20;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-35">
+          <mxGeometry x="0.571" y="-2" relative="1" as="geometry">
+            <mxPoint x="5" y="23" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-37" value="" style="shape=requiredInterface;html=1;verticalLabelPosition=bottom;sketch=0;rotation=-55;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="550" y="229" width="10" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-38" value="SlipAngel" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;fontColor=#000000;rotation=20;" vertex="1" parent="1">
+          <mxGeometry x="556" y="217" width="30" height="13" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
