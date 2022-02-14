@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-02-13T12:17:42.016Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="2VEFLePBkL8qZuRtgQTa" version="16.5.6" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-14T06:27:46.789Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="qdgxlhAtnPItQADX_UTa" version="16.5.6" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
-    <mxGraphModel dx="1831" dy="532" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1843" dy="544" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -84,11 +84,6 @@
             <mxPoint as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="KdYmeimfXarCjzWCJzDl-44" value="速度方向" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-43">
-          <mxGeometry x="0.6709" relative="1" as="geometry">
-            <mxPoint x="-40" y="12" as="offset" />
-          </mxGeometry>
-        </mxCell>
         <mxCell id="KdYmeimfXarCjzWCJzDl-45" value="" style="endArrow=classic;html=1;fontSize=8;curved=1;fillColor=#60a917;strokeColor=#2D7600;" edge="1" parent="KdYmeimfXarCjzWCJzDl-42">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint y="106" as="sourcePoint" />
@@ -163,6 +158,38 @@
             <mxPoint y="119" as="sourcePoint" />
             <mxPoint x="50" as="targetPoint" />
             <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-56" value="" style="ellipse;whiteSpace=wrap;html=1;aspect=fixed;fontSize=8;fontColor=#ffffff;fillColor=#647687;strokeColor=#314354;" vertex="1" parent="1">
+          <mxGeometry x="130" y="580" width="80" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-57" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#000000;curved=1;fillColor=#e3c800;strokeColor=#B09500;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="169.64" y="610" as="sourcePoint" />
+            <mxPoint x="169.64" y="520" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-58" value="悬挂支撑力(Fz)" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-57">
+          <mxGeometry x="0.6476" y="-2" relative="1" as="geometry">
+            <mxPoint x="-2" y="14" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-59" value="" style="endArrow=classic;html=1;fontSize=8;fontColor=#000000;curved=1;fillColor=#008a00;strokeColor=#005700;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="160" y="660" as="sourcePoint" />
+            <mxPoint x="70" y="660" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-60" value="向前动力 F = 摩擦力 = 纵向力 + 横向力" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;fontColor=#000000;" vertex="1" connectable="0" parent="KdYmeimfXarCjzWCJzDl-59">
+          <mxGeometry x="0.2762" y="2" relative="1" as="geometry">
+            <mxPoint x="-3" y="28" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="KdYmeimfXarCjzWCJzDl-61" value="摩擦力= Fz * Friction&amp;nbsp;" style="endArrow=classic;html=1;fontSize=8;fontColor=#000000;curved=1;fillColor=#e51400;strokeColor=#B20000;" edge="1" parent="1">
+          <mxGeometry x="1" y="-14" width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="180" y="660" as="sourcePoint" />
+            <mxPoint x="290" y="660" as="targetPoint" />
+            <mxPoint x="10" y="-4" as="offset" />
           </mxGeometry>
         </mxCell>
       </root>
