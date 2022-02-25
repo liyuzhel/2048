@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T03:36:11.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="OEwn-FfA5qkb6Um6_0wg" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T04:06:52.839Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="EKVAiO35sToNsuDnkGPa" version="16.6.1" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
     <mxGraphModel dx="3151" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -835,7 +835,7 @@
           <mxGeometry x="-1061.25" y="441" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;glass=1;labelBackgroundColor=none;" vertex="1" parent="1">
-          <mxGeometry x="1910" y="1330" width="1060" height="580" as="geometry" />
+          <mxGeometry x="1920" y="1360" width="1060" height="580" as="geometry" />
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-66" value="&lt;font style=&quot;font-size: 17px&quot;&gt;正常行驶&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
           <mxGeometry x="1971.75" y="1770" width="130" height="60" as="geometry" />
@@ -960,11 +960,11 @@
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-97" target="9JpEbBqRmUBogPm0-Eaf-66">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9JpEbBqRmUBogPm0-Eaf-97" value="&lt;font style=&quot;font-size: 17px&quot;&gt;漂移状态(只有反向方向输入)&lt;br&gt;(快速拟合结束漂移)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-97" value="&lt;font style=&quot;font-size: 17px&quot;&gt;漂移状态(只有反向方向输入)&lt;br&gt;(快速拟合结束漂移)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
           <mxGeometry x="2718.75" y="1582" width="230" height="60" as="geometry" />
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-98" value="状态切换图" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
-          <mxGeometry x="2372.5" y="1360" width="135" height="30" as="geometry" />
+          <mxGeometry x="2410" y="1870" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
