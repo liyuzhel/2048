@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2022-02-25T02:56:20.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="p_vBCryCC6HaToHBUIs7" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T03:36:11.037Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="OEwn-FfA5qkb6Um6_0wg" version="16.6.1" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
-    <mxGraphModel dx="3008" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3151" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-43" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#DAE8FC;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1140" y="160" width="1027" height="709" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-64" value="" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#000000;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-554.25" y="417" width="219.25" height="130" as="geometry" />
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-30" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="1815" width="1160" height="500" as="geometry" />
@@ -828,8 +831,140 @@
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="KdYmeimfXarCjzWCJzDl-98" target="9JpEbBqRmUBogPm0-Eaf-57">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9JpEbBqRmUBogPm0-Eaf-63" value="用户可自定义实现的Tire动力计算方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-63" value="可自定义实现的Tire动力计算函数" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-1061.25" y="441" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-65" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=8;glass=1;labelBackgroundColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1910" y="1330" width="1060" height="580" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-66" value="&lt;font style=&quot;font-size: 17px&quot;&gt;正常行驶&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="1971.75" y="1770" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-67" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.772;entryY=0.017;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-72" target="9JpEbBqRmUBogPm0-Eaf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-68" value="CancelBtn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-67">
+          <mxGeometry x="-0.1293" y="-1" relative="1" as="geometry">
+            <mxPoint x="31" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-69" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-72" target="9JpEbBqRmUBogPm0-Eaf-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-70" value="InputDir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-69">
+          <mxGeometry x="-0.4005" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-71" value="inputBtn" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.308;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-72" target="9JpEbBqRmUBogPm0-Eaf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-72" value="&lt;span style=&quot;font-size: 17px&quot;&gt;按下漂移按钮&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="1981.75" y="1580" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-74" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;rounded=0;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-80" target="9JpEbBqRmUBogPm0-Eaf-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-75" value="OppositeDirInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-74">
+          <mxGeometry x="-0.2256" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-76" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.641;entryY=0.999;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;entryPerimeter=0;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-80" target="9JpEbBqRmUBogPm0-Eaf-95">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="2418.75" y="1790" />
+              <mxPoint x="2276.75" y="1790" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-77" value="CancelBtn" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-76">
+          <mxGeometry x="0.2207" y="-1" relative="1" as="geometry">
+            <mxPoint x="50" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-78" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;fontSize=8;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-80" target="9JpEbBqRmUBogPm0-Eaf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-79" value="CanStopDrift" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-78">
+          <mxGeometry x="-0.1076" y="1" relative="1" as="geometry">
+            <mxPoint x="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-99" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=0;exitDx=0;exitDy=0;entryX=0.724;entryY=1.073;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-80" target="9JpEbBqRmUBogPm0-Eaf-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-100" value="InputDir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-99">
+          <mxGeometry x="-0.1459" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-80" value="&lt;span style=&quot;font-size: 17px&quot;&gt;漂移状态(按钮输入)&lt;br&gt;(车身与速度方向拟合)&lt;br&gt;&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2414.75" y="1770" width="179" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-81" value="CancelBtn" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=0;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-84" target="9JpEbBqRmUBogPm0-Eaf-90">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-82" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=0.166;entryY=-0.04;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=8;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-84" target="9JpEbBqRmUBogPm0-Eaf-80">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-83" value="CancelDir" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=8;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-82">
+          <mxGeometry x="0.1503" y="1" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-84" value="&lt;span style=&quot;font-size: 17px&quot;&gt;漂移状态(方向输入和按钮输入)&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=12;fillColor=#d5e8d4;strokeColor=#82b366;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2388.75" y="1580" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-85" value="InputBtn" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.709;entryY=0.026;entryDx=0;entryDy=0;entryPerimeter=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-90" target="9JpEbBqRmUBogPm0-Eaf-84">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-86" style="edgeStyle=orthogonalEdgeStyle;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;rounded=0;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-90" target="9JpEbBqRmUBogPm0-Eaf-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-87" value="OppositeDirInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-86">
+          <mxGeometry x="-0.4239" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-88" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-90" target="9JpEbBqRmUBogPm0-Eaf-95">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-89" value="CancelInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-88">
+          <mxGeometry x="-0.4015" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-90" value="&lt;font style=&quot;font-size: 17px&quot;&gt;漂移状态(方向输入)&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2393.75" y="1440" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-91" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.25;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-95" target="9JpEbBqRmUBogPm0-Eaf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-92" value="CanStopDrift" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=5;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-91">
+          <mxGeometry x="0.0748" y="2" relative="1" as="geometry">
+            <mxPoint x="-10" y="-42" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-93" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.25;entryY=1;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-95" target="9JpEbBqRmUBogPm0-Eaf-97">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-94" value="OppositeDirInput" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontSize=10;fontColor=#000000;" vertex="1" connectable="0" parent="9JpEbBqRmUBogPm0-Eaf-93">
+          <mxGeometry x="0.2626" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-95" value="&lt;font style=&quot;font-size: 17px&quot;&gt;漂移但是没有任何输入&lt;br&gt;(车身与速度方向拟合)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;align=center;" vertex="1" parent="1">
+          <mxGeometry x="2136.25" y="1642" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-96" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.75;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=5;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9JpEbBqRmUBogPm0-Eaf-97" target="9JpEbBqRmUBogPm0-Eaf-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-97" value="&lt;font style=&quot;font-size: 17px&quot;&gt;漂移状态(只有反向方向输入)&lt;br&gt;(快速拟合结束漂移)&lt;br&gt;&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;labelBackgroundColor=#FFFFFF;fontSize=12;fontColor=#000000;fillColor=#FFFFFF;" vertex="1" parent="1">
+          <mxGeometry x="2718.75" y="1582" width="230" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-98" value="状态切换图" style="text;html=1;strokeColor=#d79b00;fillColor=#ffe6cc;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=8;" vertex="1" parent="1">
+          <mxGeometry x="2372.5" y="1360" width="135" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
