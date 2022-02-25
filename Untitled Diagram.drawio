@@ -1,11 +1,11 @@
-<mxfile host="app.diagrams.net" modified="2022-02-24T09:24:10.040Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="P89Yt3Jm2al9S5PRWqyw" version="16.6.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-02-25T02:56:20.028Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="p_vBCryCC6HaToHBUIs7" version="16.6.1" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
-    <mxGraphModel dx="2891" dy="614" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3008" dy="672" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-43" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=#DAE8FC;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="-850" y="160" width="727" height="709" as="geometry" />
+          <mxGeometry x="-1140" y="160" width="1027" height="709" as="geometry" />
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-30" value="" style="rounded=0;whiteSpace=wrap;html=1;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="40" y="1815" width="1160" height="500" as="geometry" />
@@ -821,6 +821,15 @@
         </mxCell>
         <mxCell id="9JpEbBqRmUBogPm0-Eaf-44" value="Physx Vehicle 流程示意图" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="-630" y="674" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-57" value="&lt;span style=&quot;font-size: 8px&quot;&gt;TireShader&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-1030" y="481" width="187.5" height="27" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-62" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=10;fontColor=#000000;" edge="1" parent="1" source="KdYmeimfXarCjzWCJzDl-98" target="9JpEbBqRmUBogPm0-Eaf-57">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9JpEbBqRmUBogPm0-Eaf-63" value="用户可自定义实现的Tire动力计算方式" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;labelBackgroundColor=none;fontSize=10;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="-1061.25" y="441" width="250" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
