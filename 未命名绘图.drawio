@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2022-07-20T02:18:34.429Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="dBeV8INXhgded0QFq0dZ" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-20T06:16:53.727Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="h8is4CMKK79ls2YEkeR7" version="17.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
-    <mxGraphModel dx="2012" dy="635" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="2249" dy="762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
         <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
@@ -26,23 +26,153 @@
             <mxPoint x="219.71" y="410" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-0" value="&lt;span&gt;	&lt;/span&gt;float ElapsedTime = tf_CurWorldTime - VehicleOwner-&amp;gt;LastReplicatePhysicsStateTime;&amp;nbsp; //距离上一次收到同步消息的时间差&lt;br&gt;&lt;span&gt;	&lt;/span&gt;bool bForceStopSimulate = ElapsedTime &amp;gt;= MaxDeltaTimeSinceLastPhysicStateAtClient; //是否需要停止物理模拟" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
-          <mxGeometry x="330" y="10" width="940" height="30" as="geometry" />
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-0" value="&lt;span&gt; &lt;/span&gt;&lt;font color=&quot;#ff0000&quot;&gt;float ElapsedTime = tf_CurWorldTime - VehicleOwner-&amp;gt;LastReplicatePhysicsStateTime;&amp;nbsp; //距离上一次收到同步消息的时间差&lt;br&gt;&lt;span&gt; &lt;/span&gt;bool bForceStopSimulate = ElapsedTime &amp;gt;= MaxDeltaTimeSinceLastPhysicStateAtClient(4s); //距离上次同步是否超过4s&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="370" y="360" width="940" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-1" value="mf_LastStaticForceFixTime 上一次强制修正的时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-1" value="mf_LastStaticForceFixTime 上一次强制修正的时间" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="40" y="40" width="390" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-2" value="&amp;nbsp;mf_LastStaticForceFixTime &amp;lt; VehicleOwner-&amp;gt;LastReplicatePhysicsStateTime 当前周期强制同步了一次&lt;br&gt;ElapsedTime &amp;gt; IdleForceUpdateThreshold(默认是3s); 超过上次同步时间3秒&lt;br&gt;VehicleOwner-&amp;gt;ReplicatedMovement.bSimulatedPhysicSleep DS端已经Sleep了&lt;br&gt;tfv_Location.Equals(VehicleOwner-&amp;gt;ReplicatedMovement.Location, StaticFixLocation) /当前距离超过StaticFixLocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-2" value="载具上没人而且不是是直升机/无人机&lt;br&gt;&lt;font color=&quot;#ff0000&quot;&gt;&amp;nbsp;mf_LastStaticForceFixTime &amp;lt; VehicleOwner-&amp;gt;LastReplicatePhysicsStateTime 当前同步消息周期未同步&lt;/font&gt;&lt;br&gt;ElapsedTime &amp;gt; IdleForceUpdateThreshold(默认是3s); 超过上次同步时间3秒&lt;br&gt;VehicleOwner-&amp;gt;ReplicatedMovement.bSimulatedPhysicSleep DS端已经Sleep了&lt;br&gt;tfv_Location.Equals(VehicleOwner-&amp;gt;ReplicatedMovement.Location, StaticFixLocation) /当前距离超过StaticFixLocation" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-150" y="160" width="740" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-4" value="强制设置DS Location、Rotation、LinearVelocity、AngularVelocity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-4" value="强制设置DS Location、Rotation、LinearVelocity、AngularVelocity" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="10" y="300" width="440" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/**&lt;span&gt;	&lt;/span&gt;&amp;lt;设置时间标志 */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mf_LastStaticForceFixTime = tf_CurWorldTime;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-5" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;/**&lt;span&gt; &lt;/span&gt;&amp;lt;设置时间标志 */&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; mf_LastStaticForceFixTime = tf_CurWorldTime;&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry y="420" width="420" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9Tid-Hz9NfJKpIZ19I31-6" value="&lt;font color=&quot;#ff0000&quot;&gt;TIPS:这部分强制修正逻辑在DS位置不变，不同步客户端位置之后执行一次，&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+        <mxCell id="9Tid-Hz9NfJKpIZ19I31-6" value="&lt;font color=&quot;#ff0000&quot;&gt;TIPS:这部分强制修正逻辑在DS位置不变，不同步客户端位置之后执行一次，&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
           <mxGeometry x="-40" y="470" width="570" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-0" target="vx1GTUyJyXZeUmgupxp1-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-0" value="ElapsedTime &amp;gt; MinDeltaTimeSinceLastPhysicStateAtClient(默认是1s) 距离上次收到DS消息以及超过1s&lt;br&gt;PosDiffSq &amp;gt; StationaryCorrectThresholdDistanceSq(2500.0f) 当前位置与DS位置差超过0.5米" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="160" width="600" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-1" target="vx1GTUyJyXZeUmgupxp1-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-1" value="常规修正逻辑" style="rounded=1;whiteSpace=wrap;html=1;fontSize=12;glass=0;strokeWidth=1;shadow=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1310.5" y="80" width="300" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-4" target="vx1GTUyJyXZeUmgupxp1-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-9" value="Y" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vx1GTUyJyXZeUmgupxp1-8">
+          <mxGeometry x="-0.2" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-24" value="是" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];fontColor=#FF0000;" vertex="1" connectable="0" parent="vx1GTUyJyXZeUmgupxp1-8">
+          <mxGeometry x="-0.341" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-4" value="StationaryCorrectTimer &amp;gt; StationaryCorrectIntervalAtClient(0.2) 差异时间超过了0.2s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1160" y="390" width="600" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-22" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-6" target="vx1GTUyJyXZeUmgupxp1-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-6" value="&lt;div&gt;&lt;span&gt;		&lt;/span&gt;StationaryCorrectTimer += DeltaTime;(位置差异判断间隔)&lt;/div&gt;&lt;div&gt;&lt;span&gt;				&lt;/span&gt;SimulatedCorrectTimer += DeltaTime;(强制修改ReplicatedLocation的间隔)&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1182.5" y="290" width="555" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-11" value="是" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-7" target="vx1GTUyJyXZeUmgupxp1-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-7" target="vx1GTUyJyXZeUmgupxp1-16">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-18" value="否" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="vx1GTUyJyXZeUmgupxp1-17">
+          <mxGeometry x="0.1176" y="-3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-7" value="SimulatedCorrectTimer &amp;gt; SimulatedCorrectTimerIntervalAtClient(2s)当位置差异超过了2s" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1153" y="600" width="615" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-15" value="bForceStopSimulate" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-10" target="vx1GTUyJyXZeUmgupxp1-14">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-10" value="FindFloor，然后Z轴太高StationaryCorrectFloorOffset(0.5m)&lt;br&gt;应用FloorLocation、Rotation置与旋转&lt;br&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1220" y="790" width="480" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-14" value="修改ReplicatedLocation.Z&lt;br&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;PrimitiveComponent-&amp;gt;SetPhysicsLinearVelocity(FVector::ZeroVector, false);&lt;/div&gt;&lt;div&gt;&lt;span&gt;								&lt;/span&gt;PrimitiveComponent-&amp;gt;SetPhysicsAngularVelocityInRadians(FVector::ZeroVector, false);&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="1155" y="1010" width="610" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-20" value="Y" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-16" target="vx1GTUyJyXZeUmgupxp1-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-16" value="bForceStopSimulate == false(距离上次同步时间小于4秒)" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2097.5" y="600" width="432.5" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-19" value="ApplyRigidBodyState(ReplicatedMovement)&lt;br&gt;如果DS处于Sleep状态，同时也应用Sleep状态" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2175.63" y="790" width="276.25" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-25">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2910" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-25" value="&lt;font color=&quot;#000000&quot;&gt;最后一次收到DS消息&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2810" y="100" width="200" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-27" value="MinDeltaTimeSinceLastPhysicStateAtClient(1s)1秒之后开始判断位置差" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2630" y="230" width="720" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-28" value="&lt;font color=&quot;#ff0000&quot;&gt;假设一直存在位置差的情况下&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2780" y="40" width="450" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-29" value="1s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2830" y="290" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-32" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2910" y="430" as="targetPoint" />
+            <mxPoint x="2910" y="320" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2910" y="410" />
+              <mxPoint x="2910" y="410" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-30" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2890" y="290" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-33" value="&lt;font color=&quot;#000000&quot;&gt;StationaryCorrectIntervalAtClient(0.2) 0.2s间隔判断&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2760" y="370" width="350" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-40" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#000000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="2910" y="890" as="targetPoint" />
+            <mxPoint x="2910" y="480" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="2910" y="590" />
+              <mxPoint x="2910" y="590" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-36" value="" style="shape=waypoint;sketch=0;fillStyle=solid;size=6;pointerEvents=1;points=[];fillColor=none;resizable=0;rotatable=0;perimeter=centerPerimeter;snapToPoint=1;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2890" y="430" width="40" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-37" value="1 + n*0.2s&lt;br&gt;最早一次1.2s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2730" y="425" width="140" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-38" value="bForceStopSimulate = ElapsedTime &amp;gt;= MaxDeltaTimeSinceLastPhysicStateAtClient;&lt;br&gt;距离上一次同步时间大于4秒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2970" y="460" width="680" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-41" value="1 + n*2s&lt;br&gt;最早一次是3秒" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2740" y="880" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-42" value="bForceStopSimulate == false &lt;br&gt;就是相当于距离上一次接受DS时间小于4秒 这个时候执行ApplyRigidBodyState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2695" y="570" width="430" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-43" value="执行FindFloor 修改Replicated位置&lt;br&gt;执行SetLocation/Rotation强制设置位置操作" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2820" y="890" width="340" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-44" value="0s" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="2800" y="120" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
