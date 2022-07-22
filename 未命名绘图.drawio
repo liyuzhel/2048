@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-07-22T09:28:07.716Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="Vb26VDxEKNmAjBDhsWGh" version="17.1.1" type="github">
+<mxfile host="app.diagrams.net" modified="2022-07-22T09:29:11.542Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.61 Safari/537.36" etag="9tNpBezy474zbPw0onRh" version="17.1.1" type="github">
   <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
     <mxGraphModel dx="2858" dy="1089" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -181,11 +181,19 @@
         <mxCell id="vx1GTUyJyXZeUmgupxp1-51" value="否" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;fontColor=#000000;strokeColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-48" target="vx1GTUyJyXZeUmgupxp1-7">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-54" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontColor=#FF0000;strokeColor=#FF0000;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="vx1GTUyJyXZeUmgupxp1-48">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="727.5" y="840" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
         <mxCell id="vx1GTUyJyXZeUmgupxp1-48" value="&lt;div&gt;&lt;span&gt;			&lt;/span&gt;bool bApplySleepState = bApplyReplicatedMovementSleepFlag &amp;amp;&amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;CVarApplyAllRigidBodySleepState.GetValueOnAnyThread() &amp;gt; 0 &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt; VehicleOwner-&amp;gt;ReplicatedMovement.bSimulatedPhysicSleep&amp;amp;&amp;amp;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;ElapsedTime &amp;gt; ApplyReplicatedMovementSleepFlagMinElapseTime &amp;amp;&amp;amp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;						&lt;/span&gt;ElapsedTime &amp;lt;= ApplyReplicatedMovementSleepFlagMaxElapseTime;&lt;/div&gt;&lt;div&gt;DS处于Sleep状态 而且 处于应用Sleep状态的Elapse区间&lt;/div&gt;" style="whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="420" y="600" width="615" height="120" as="geometry" />
         </mxCell>
         <mxCell id="vx1GTUyJyXZeUmgupxp1-52" value="&lt;div&gt;&lt;span&gt;	&lt;/span&gt;//现在主要是三种校正策略 无法成功执行的话 就会执行下一个策略&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;//1.首先先是 ApplyRigidBodyState ;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;//2.如果不成功而且当前载具DS已经Sleep那就直接强制应用Sleep的标志;&lt;/div&gt;&lt;div&gt;&lt;span&gt;					&lt;/span&gt;//3.如果不成功那就直接修改位置，主要是修改ReplicatedMovement.Location的z值&lt;/div&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
           <mxGeometry x="1135" y="475" width="650" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="vx1GTUyJyXZeUmgupxp1-55" value="强制应用DS的位置 速度信息，并且j将载具Sleep掉" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FF0000;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="590" y="840" width="290" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
