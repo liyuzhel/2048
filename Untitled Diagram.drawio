@@ -1,11 +1,14 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T15:09:17.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SN8TsVZGymrii80sJRNW" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T15:20:46.448Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="MSJcfyHEhM23gipVpAvR" version="16.6.4" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
     <mxGraphModel dx="2888" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;gradientColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="57" y="4150" width="350" height="267" as="geometry" />
+        </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-129" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="-352.5" y="2377.5" width="1171.75" height="1252.5" as="geometry" />
+          <mxGeometry x="235.25" y="2425.5" width="1171.75" height="1252.5" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-105" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;dashed=1;" parent="1" vertex="1">
           <mxGeometry x="420" y="2578.5" width="260" height="511.5" as="geometry" />
@@ -1873,7 +1876,7 @@
         <mxCell id="aq3DYaD8Tcjbivg24pWU-100" value="" style="group" parent="1" vertex="1" connectable="0">
           <mxGeometry x="452.5" y="2631.5" width="187.5" height="436.5" as="geometry" />
         </mxCell>
-        <mxCell id="aq3DYaD8Tcjbivg24pWU-54" value="加速" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="aq3DYaD8Tcjbivg24pWU-100" vertex="1">
+        <mxCell id="aq3DYaD8Tcjbivg24pWU-54" value="漂移加速/技能加速" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="aq3DYaD8Tcjbivg24pWU-100" vertex="1">
           <mxGeometry y="302" width="187.5" height="28" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-55" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="aq3DYaD8Tcjbivg24pWU-100" source="aq3DYaD8Tcjbivg24pWU-51" target="aq3DYaD8Tcjbivg24pWU-54" edge="1">
@@ -2034,6 +2037,89 @@
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-3" value="&lt;font color=&quot;#036897&quot;&gt;LocalVehicleState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
           <mxGeometry x="-40" y="3395" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-15" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-16" target="_JAsFB5nuTQyIyF-01VF-18">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-16" value="PrePhysics" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="3810" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-17" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-18" target="_JAsFB5nuTQyIyF-01VF-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-18" value="StartPhysics" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#f8cecc;strokeColor=#b85450;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="3900" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-19" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-20" target="_JAsFB5nuTQyIyF-01VF-24">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-20" value="DuringPhysics" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#e1d5e7;strokeColor=#9673a6;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4018.75" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-21" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-24" target="_JAsFB5nuTQyIyF-01VF-26">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-24" value="EndPhysics" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#fff2cc;strokeColor=#d6b656;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4119.75" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-25" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-26" target="_JAsFB5nuTQyIyF-01VF-27">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-60" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-26">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="4253" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-26" value="PostPhysisc" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4216.25" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-27" value="Rendering" style="whiteSpace=wrap;html=1;rounded=1;" vertex="1" parent="1">
+          <mxGeometry x="-160" y="4313.75" width="120" height="73" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-28" value="&lt;br&gt;Simulate Task" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-315" y="4041.25" width="140" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-29" value="FetchResuts&lt;br&gt;(物理信息回写UE以及物理回调)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-375" y="4161.75" width="210" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-31" value="&lt;font color=&quot;#000000&quot;&gt;TrainPoseConstraint&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="1">
+          <mxGeometry x="97" y="4204.75" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-32" value="&lt;font color=&quot;#000000&quot;&gt;CabinTransformConstraint&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=17;fontColor=#ffffff;fillColor=#1ba1e2;strokeColor=#006EAF;" vertex="1" parent="1">
+          <mxGeometry x="97" y="4300" width="244" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-30" value="Physics StartSimulate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-356.25" y="3888.75" width="140" height="43" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-42" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3780" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-43" value="&lt;span style=&quot;font-size: 8px&quot;&gt;前向动力&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3833.5" width="187.5" height="28.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-44" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-42" target="_JAsFB5nuTQyIyF-01VF-43">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-45" value="阻力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3931.75" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-47" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3780" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-48" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3780" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-49" value="反重力处理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3780" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-57" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-50" target="_JAsFB5nuTQyIyF-01VF-45">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-50" value="&lt;span style=&quot;font-size: 8px&quot;&gt;转弯动力&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="590" y="3880.5" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-51" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="_JAsFB5nuTQyIyF-01VF-43" target="_JAsFB5nuTQyIyF-01VF-50">
+          <mxGeometry relative="1" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
