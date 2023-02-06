@@ -1,9 +1,12 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T07:49:37.273Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="lLahKiyyKi3U5tFwaLCC" version="20.8.16" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T07:51:17.556Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="vLtt0lDCfNAC1nYZbCcx" version="20.8.16" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
     <mxGraphModel dx="2806" dy="1762" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="aq3DYaD8Tcjbivg24pWU-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-1050" y="2491" width="650" height="449" as="geometry" />
+        </mxCell>
         <mxCell id="Cp5bRRM4nt0OtGu-sWcS-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3270" y="2956" width="1012" height="480" as="geometry" />
         </mxCell>
@@ -1814,7 +1817,7 @@
           <mxGeometry y="140" width="210" height="32" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-17" value="    FArcadeVehicleEngineState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" vertex="1" parent="1">
-          <mxGeometry x="-538.75" y="2553" width="210" height="332" as="geometry">
+          <mxGeometry x="-670" y="2565" width="210" height="332" as="geometry">
             <mxRectangle x="-1020" y="2565" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1851,6 +1854,12 @@
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-27" value="....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" vertex="1" parent="aq3DYaD8Tcjbivg24pWU-17">
           <mxGeometry y="300" width="210" height="32" as="geometry" />
+        </mxCell>
+        <mxCell id="aq3DYaD8Tcjbivg24pWU-28" value="同步信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-945" y="2520" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="aq3DYaD8Tcjbivg24pWU-29" value="EngineState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-618.75" y="2520" width="90" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
