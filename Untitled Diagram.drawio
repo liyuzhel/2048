@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-02-06T15:01:16.760Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="n9gJ0mpPY8dlKDrBCmKt" version="16.6.4" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-06T15:09:17.733Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36" etag="SN8TsVZGymrii80sJRNW" version="16.6.4" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
     <mxGraphModel dx="2888" dy="1890" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -2017,17 +2017,23 @@
             <mxPoint y="1" as="offset" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="_JAsFB5nuTQyIyF-01VF-1" value="" style="shape=mxgraph.cisco.misc.car;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;direction=north;" vertex="1" parent="1">
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-1" value="" style="shape=mxgraph.cisco.misc.car;html=1;pointerEvents=1;dashed=0;fillColor=#036897;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;direction=north;rotation=10;" vertex="1" parent="1">
           <mxGeometry x="-10" y="3326" width="37" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="_JAsFB5nuTQyIyF-01VF-2" value="" style="shape=mxgraph.cisco.misc.car;html=1;pointerEvents=1;dashed=0;fillColor=#FF6666;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;direction=north;" vertex="1" parent="1">
-          <mxGeometry x="75" y="3245" width="37" height="69" as="geometry" />
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-2" value="" style="shape=mxgraph.cisco.misc.car;html=1;pointerEvents=1;dashed=0;fillColor=#FF6666;strokeColor=#ffffff;strokeWidth=2;verticalLabelPosition=bottom;verticalAlign=top;align=center;outlineConnect=0;direction=north;rotation=30;" vertex="1" parent="1">
+          <mxGeometry x="60" y="3241.62" width="37" height="69" as="geometry" />
         </mxCell>
-        <mxCell id="_JAsFB5nuTQyIyF-01VF-3" value="&lt;font color=&quot;#036897&quot;&gt;LocalVehicleState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
-          <mxGeometry x="-15.5" y="3395" width="60" height="30" as="geometry" />
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-13" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;fontSize=17;fontColor=#FF6666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="119" y="3188.5" width="23" height="281.5" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-14" value="" style="shape=partialRectangle;whiteSpace=wrap;html=1;right=0;top=0;bottom=0;fillColor=none;routingCenterX=-0.5;fontSize=17;fontColor=#FF6666;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="-30" y="3192" width="23" height="281.5" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-4" value="&lt;font color=&quot;#ff6666&quot;&gt;ReplicatedVehicleState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#036897;" vertex="1" parent="1">
           <mxGeometry x="63.5" y="3211.62" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="_JAsFB5nuTQyIyF-01VF-3" value="&lt;font color=&quot;#036897&quot;&gt;LocalVehicleState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="3395" width="60" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
