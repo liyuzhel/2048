@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T02:09:50.928Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="jy-uUf3UI2eHZN4Mehgk" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-10T02:13:31.161Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="grCFrtNtdNRaiB-ws1Yn" version="20.8.18" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
-    <mxGraphModel dx="2806" dy="1793" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3249" dy="2034" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -17,7 +17,7 @@
           <mxGeometry x="420" y="2578.5" width="260" height="511.5" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-30" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="-1310" y="2498" width="810" height="449" as="geometry" />
+          <mxGeometry x="-1310" y="2498" width="930" height="449" as="geometry" />
         </mxCell>
         <mxCell id="Cp5bRRM4nt0OtGu-sWcS-6" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="3270" y="2956" width="1012" height="480" as="geometry" />
@@ -1802,7 +1802,7 @@
           <mxGeometry x="2976" y="400" width="294" height="190" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-1" value="FArcadeVehicleReplicatedState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-1200" y="2565" width="210" height="172" as="geometry">
+          <mxGeometry x="-1290" y="2570" width="210" height="172" as="geometry">
             <mxRectangle x="-1020" y="2565" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1826,7 +1826,7 @@
           <mxGeometry y="140" width="210" height="32" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-17" value="    FArcadeVehicleEngineState" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=26;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
-          <mxGeometry x="-850" y="2556.5" width="210" height="332" as="geometry">
+          <mxGeometry x="-1052.5" y="2568" width="210" height="300" as="geometry">
             <mxRectangle x="-1020" y="2565" width="210" height="30" as="alternateBounds" />
           </mxGeometry>
         </mxCell>
@@ -1858,17 +1858,14 @@
         <mxCell id="aq3DYaD8Tcjbivg24pWU-25" value="DeltaTime" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aq3DYaD8Tcjbivg24pWU-17" vertex="1">
           <mxGeometry y="236" width="210" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="aq3DYaD8Tcjbivg24pWU-26" value="OnGroundWheel" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aq3DYaD8Tcjbivg24pWU-17" vertex="1">
+        <mxCell id="aq3DYaD8Tcjbivg24pWU-27" value="....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aq3DYaD8Tcjbivg24pWU-17" vertex="1">
           <mxGeometry y="268" width="210" height="32" as="geometry" />
         </mxCell>
-        <mxCell id="aq3DYaD8Tcjbivg24pWU-27" value="....." style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;" parent="aq3DYaD8Tcjbivg24pWU-17" vertex="1">
-          <mxGeometry y="300" width="210" height="32" as="geometry" />
-        </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-28" value="同步信息" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-1125" y="2520" width="60" height="30" as="geometry" />
+          <mxGeometry x="-1240" y="2520" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-29" value="EngineState" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
-          <mxGeometry x="-798.75" y="2520" width="90" height="30" as="geometry" />
+          <mxGeometry x="-1010" y="2522" width="90" height="30" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-106" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.487;entryY=-0.001;entryDx=0;entryDy=0;entryPerimeter=0;" parent="1" source="aq3DYaD8Tcjbivg24pWU-72" target="aq3DYaD8Tcjbivg24pWU-105" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -2179,6 +2176,40 @@
         </mxCell>
         <mxCell id="9SXdhjVojf5kn_x-2AOm-16" value="更新Shape List的位置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
           <mxGeometry x="1172.5" y="4236.75" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-20" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-818.75" y="3136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-21" target="9SXdhjVojf5kn_x-2AOm-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-21" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-1070.62" y="3120" width="181.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-820" y="3170" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-1070.62" y="3170" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-25" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="-548.13" y="2676" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-27" target="9SXdhjVojf5kn_x-2AOm-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-27" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-799.9999999999999" y="2660" width="181.25" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-29">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="-549.38" y="2710" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="-799.9999999999999" y="2710" width="180" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
