@@ -1,14 +1,17 @@
-<mxfile host="app.diagrams.net" modified="2023-02-10T02:19:57.474Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="JghxrNV0NxaFgGbOy-me" version="20.8.18" type="github">
+<mxfile host="app.diagrams.net" modified="2023-02-25T11:38:04.134Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/103.0.0.0 Safari/537.36" etag="yXIbK_qOCDB16cQfGYyl" version="20.8.18" type="github">
   <diagram id="PMNbHHIjErQ10D7FR_ej" name="第 1 页">
-    <mxGraphModel dx="2518" dy="1637" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3084" dy="1944" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="965" y="3940" width="555" height="370" as="geometry" />
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-12" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-627" y="3750" width="1207" height="770" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
+          <mxGeometry x="940" y="3940" width="580" height="520" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-61" value="" style="rounded=0;whiteSpace=wrap;html=1;fontSize=17;fontColor=#000000;strokeColor=default;fillColor=#FFFFFF;gradientColor=#ffffff;" parent="1" vertex="1">
-          <mxGeometry x="57" y="4150" width="350" height="267" as="geometry" />
+          <mxGeometry x="57" y="4150" width="513" height="267" as="geometry" />
         </mxCell>
         <mxCell id="aq3DYaD8Tcjbivg24pWU-129" value="" style="rounded=0;whiteSpace=wrap;html=1;gradientColor=#ffffff;" parent="1" vertex="1">
           <mxGeometry x="235.25" y="2425.5" width="1171.75" height="1252.5" as="geometry" />
@@ -2054,7 +2057,7 @@
           <mxGeometry x="-315" y="4041.25" width="140" height="43" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-29" value="FetchResuts&lt;br&gt;(物理信息回写UE以及物理回调)" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-375" y="4161.75" width="210" height="43" as="geometry" />
+          <mxGeometry x="-380" y="4145.25" width="210" height="43" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-31" value="&lt;font color=&quot;#000000&quot;&gt;TrainPoseConstraint&lt;/font&gt;" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;fontSize=17;fillColor=#ffe6cc;strokeColor=#d79b00;" parent="1" vertex="1">
           <mxGeometry x="97" y="4204.75" width="244" height="60" as="geometry" />
@@ -2063,7 +2066,7 @@
           <mxGeometry x="97" y="4300" width="244" height="60" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-30" value="Physics StartSimulate" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
-          <mxGeometry x="-356.25" y="3888.75" width="140" height="43" as="geometry" />
+          <mxGeometry x="-340" y="3915" width="140" height="43" as="geometry" />
         </mxCell>
         <mxCell id="_JAsFB5nuTQyIyF-01VF-42" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="590" y="3780" width="187.5" height="28" as="geometry" />
@@ -2124,7 +2127,7 @@
         <mxCell id="_JAsFB5nuTQyIyF-01VF-3" value="&lt;font color=&quot;#036897&quot;&gt;LocalSimulateState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="ToeiXIqomida2KMmTAi5-3" vertex="1">
           <mxGeometry y="207" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#FF0000;dashed=1;" edge="1" parent="ToeiXIqomida2KMmTAi5-3" source="ToeiXIqomida2KMmTAi5-1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-19" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;startArrow=classic;startFill=1;strokeColor=#FF0000;dashed=1;" parent="ToeiXIqomida2KMmTAi5-3" source="ToeiXIqomida2KMmTAi5-1" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="156.5" y="168.3800000000001" as="targetPoint" />
           </mxGeometry>
@@ -2135,81 +2138,111 @@
         <mxCell id="ToeiXIqomida2KMmTAi5-2" value="&lt;font&gt;FinalState&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#000000;" parent="ToeiXIqomida2KMmTAi5-3" vertex="1">
           <mxGeometry x="50" y="57" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-2" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-2" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="3982" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-3" value="根据车厢的Physx Shape 创建Shape List" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-3" value="根据车厢的Physx Shape 创建Shape List" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1136.25" y="4035.5" width="260" height="28.5" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-2" target="9SXdhjVojf5kn_x-2AOm-3">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-4" style="edgeStyle=orthogonalEdgeStyle;curved=1;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=8;fontColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="9SXdhjVojf5kn_x-2AOm-2" target="9SXdhjVojf5kn_x-2AOm-3" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-5" target="9SXdhjVojf5kn_x-2AOm-12">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9SXdhjVojf5kn_x-2AOm-5" target="9SXdhjVojf5kn_x-2AOm-12" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-5" value="修改车头重心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-5" value="修改物理重心" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="4133.75" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-6" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-6" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="3982" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-7" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-7" value="悬挂受力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="3982" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-8" value="关闭车厢的物理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-8" value="关闭车厢的物理" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="3982" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontColor=#000000;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-10" target="9SXdhjVojf5kn_x-2AOm-5">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-9" style="edgeStyle=orthogonalEdgeStyle;curved=1;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=17;fontColor=#000000;" parent="1" source="9SXdhjVojf5kn_x-2AOm-10" target="9SXdhjVojf5kn_x-2AOm-5" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-10" value="将ShapeList 添加到车头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-10" value="将ShapeList 添加到车头" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="4082.5" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-3" target="9SXdhjVojf5kn_x-2AOm-10">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9SXdhjVojf5kn_x-2AOm-3" target="9SXdhjVojf5kn_x-2AOm-10" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-12" target="9SXdhjVojf5kn_x-2AOm-16">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="9SXdhjVojf5kn_x-2AOm-12" target="9SXdhjVojf5kn_x-2AOm-16" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-12" value="设置车厢位置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-12" value="设置对应车厢位置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
           <mxGeometry x="1172.5" y="4188.25" width="187.5" height="28" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-16" value="更新Shape List的位置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
-          <mxGeometry x="1172.5" y="4236.75" width="187.5" height="28" as="geometry" />
-        </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-20" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
-          <mxGeometry x="-818.75" y="3136" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-21" target="9SXdhjVojf5kn_x-2AOm-20">
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-16" target="Oa214SIsnnyYmVYtZOq7-1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-21" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-16" value="更新车厢对应的Shape位置" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" parent="1" vertex="1">
+          <mxGeometry x="1172.5" y="4236.75" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-20" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
+          <mxGeometry x="-818.75" y="3136" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="9SXdhjVojf5kn_x-2AOm-21" target="9SXdhjVojf5kn_x-2AOm-20" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-21" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-1070.62" y="3120" width="181.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-22">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="9SXdhjVojf5kn_x-2AOm-22" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-820" y="3170" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-22" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-1070.62" y="3170" width="180" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-25" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-25" value="Simulate" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" vertex="1">
           <mxGeometry x="-548.13" y="2676" width="120" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-27" target="9SXdhjVojf5kn_x-2AOm-25">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="9SXdhjVojf5kn_x-2AOm-27" target="9SXdhjVojf5kn_x-2AOm-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-27" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-27" value="FArcadeVehicleReplicatedState" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
           <mxGeometry x="-799.9999999999999" y="2660" width="181.25" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" edge="1" parent="1" source="9SXdhjVojf5kn_x-2AOm-29">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-28" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;strokeColor=#000000;startArrow=none;startFill=0;endArrow=classic;endFill=1;" parent="1" source="9SXdhjVojf5kn_x-2AOm-29" edge="1">
           <mxGeometry relative="1" as="geometry">
             <mxPoint x="-549.38" y="2710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="9SXdhjVojf5kn_x-2AOm-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9SXdhjVojf5kn_x-2AOm-29" value="&lt;span style=&quot;color: rgb(0, 0, 0); font-family: Helvetica; font-size: 12px; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: 400; letter-spacing: normal; orphans: 2; text-align: center; text-indent: 0px; text-transform: none; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; background-color: rgb(251, 251, 251); text-decoration-thickness: initial; text-decoration-style: initial; text-decoration-color: initial; float: none; display: inline !important;&quot;&gt;&amp;nbsp; &amp;nbsp; FArcadeVehicleEngineState&lt;/span&gt;" style="text;whiteSpace=wrap;html=1;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="-799.9999999999999" y="2710" width="180" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-4" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="Oa214SIsnnyYmVYtZOq7-1" target="Oa214SIsnnyYmVYtZOq7-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-1" value="更新车头动力" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="4285.75" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-3" value="更新车头以及车厢血量" style="rounded=1;whiteSpace=wrap;html=1;fontSize=8;fontColor=#000000;" vertex="1" parent="1">
+          <mxGeometry x="1172.5" y="4340" width="187.5" height="28" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-5" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4199.75" width="20" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-6" value="更新自身自适应地面状态" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="367" y="4216.25" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-7" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;labelPosition=left;verticalLabelPosition=middle;align=right;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="340" y="4295" width="20" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-8" value="1.根据车头更新车厢位置&lt;br&gt;2.车厢位置有效性处理&lt;br&gt;3.车厢解卡处理" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="378.5" y="4315" width="173" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-9" value="小火车输入处理与动力模拟" style="whiteSpace=wrap;html=1;rounded=1;fillColor=#008a00;strokeColor=#005700;fontColor=#ffffff;" vertex="1" parent="1">
+          <mxGeometry x="50" y="3931.75" width="205" height="58" as="geometry" />
+        </mxCell>
+        <mxCell id="Oa214SIsnnyYmVYtZOq7-11" value="" style="shape=curlyBracket;whiteSpace=wrap;html=1;rounded=1;flipH=1;labelPosition=right;verticalLabelPosition=middle;align=left;verticalAlign=middle;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="3853" width="20" height="217" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
